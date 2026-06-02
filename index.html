@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GitHub Task Tracker</title>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>GitHub Task Tracker</h1>
+    <form id="task-form">
+      <label for="task-input">New task</label>
+      <div class="form-row">
+        <input id="task-input" name="task" type="text" placeholder="Write a commit message" />
+        <button type="submit">Add Task</button>
+      </div>
+    </form>
+    <ul id="task-list" aria-label="Task list"></ul>
+  </main>
+  <script src="src/app.js"></script>
+</body>
+</html>
